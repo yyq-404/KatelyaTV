@@ -17,7 +17,7 @@ database_id = "2a196a9e-ade8-4523-8127-f549df1521ee"
 [env.production.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
+NEXT_PUBLIC_SITE_DESCRIPTION = "影视播放平台"
 NNEXTAUTH_SECRET = "your_nextauth_secret_here_32_chars_min"
 NEXTAUTH_URL = "https://katelyatv-dql.pages.dev"
 IMAGE_PROXY_ENABLED = "true"
@@ -31,6 +31,7 @@ LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
 D1_DATABASE_BINDING = "DB"
+PASSWORD = "pw94*3un"
 
 # 预览环境配置
 [env.preview]
