@@ -31,7 +31,7 @@ LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
 D1_DATABASE_BINDING = "DB"
-PASSWORD = "pw94*3un"
+AUTH_PASSWORD = "pw94*3un"
 
 # 预览环境配置
 [env.preview]
